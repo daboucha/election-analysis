@@ -42,8 +42,7 @@ The analysis of the election show that:
   - Diana DeGette, who received approximately 73.8% of the vote and total of 272,892 votes.
 
 ## Election-Audit Summary
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+Thank you for choosing me, I expect you are satisfied with the script and the analysis results. This script can also be used for future election analysis projects, and with a little bit of modification the scope of those projects can be expanded.
 
-
-1. 
-2. 
+1. With some modifications this script can be used for analyzing elections on any level the user desires. And the output can be adjusted and reformatted to reflect the same quality of information at the federal, state, and local levels.
+2. The script can also be modified to function with data sets of various formats. The script modifications would account for the data set format, and adjust it accordingly to avoid any issues in the analysis results.
