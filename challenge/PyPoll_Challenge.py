@@ -5,10 +5,12 @@
 import csv
 import os
 
+# Change the directory to the current file directory.
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("D:/Bootcamp/git clones/election-analysis/resources/election_results.csv")
+file_to_load = os.path.join("..", "resources", "election_results.csv")
 # Assign a variable to save the file to a path.
-file_to_save = os.path.join("D:/Bootcamp/git clones/election-analysis/challenge/analysis/election_results.txt")
+file_to_save = os.path.join("analysis", "election_results.txt")
 
 # Initialize a total vote counter.
 total_votes = 0
@@ -36,7 +38,7 @@ largest_turnout = 0
 
 # Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
-    reader = csv.reader(election_data)
+    reader = csv.reader(election_data, delimiter=',')
 
     # Read the header
     header = next(reader)
